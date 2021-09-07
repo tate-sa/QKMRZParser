@@ -20,9 +20,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "QKMRZParser",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"),
         .testTarget(
             name: "QKMRZParserTests",
-            dependencies: ["QKMRZParser"]),
+            dependencies: ["QKMRZParser"],
+            path: "Tests"),
     ]
 )
