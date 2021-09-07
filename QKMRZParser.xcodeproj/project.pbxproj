@@ -65,7 +65,7 @@
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_18 /* QKMRZParser.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QKMRZParser.podspec; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		"QKMRZParser::QKMRZParser::Product" /* QKMRZParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QKMRZParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"QKMRZParser::QKMRZParser::Product" /* QKMRZParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QKMRZParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"QKMRZParser::QKMRZParserTests::Product" /* QKMRZParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = QKMRZParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -288,7 +288,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QKMRZParser.xcodeproj/QKMRZParser_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
@@ -317,7 +317,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = QKMRZParser.xcodeproj/QKMRZParser_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
