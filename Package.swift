@@ -21,7 +21,8 @@ let package = Package(
         .target(
             name: "QKMRZParser",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources",
+            exclude: ["Info.plist"]),
         .testTarget(
             name: "QKMRZParserTests",
             dependencies: ["QKMRZParser"],
