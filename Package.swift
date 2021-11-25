@@ -22,7 +22,7 @@ let package = Package(
             name: "QKMRZParser",
             dependencies: [],
             path: "Sources",
-            exclude: ["Info.plist"]),
+            exclude: ["QKMRZParser/Info.plist"]),
         .testTarget(
             name: "QKMRZParserTests",
             dependencies: ["QKMRZParser"],
