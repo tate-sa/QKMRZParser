@@ -30,7 +30,7 @@ class MRZFieldFormatter {
         
         if ocrCorrection {
             rawValue = correct(rawValue, fieldType: fieldType)
-            checkDigit = (checkDigit == nil) ? nil : correct(checkDigit!, fieldType: fieldType)
+            checkDigit = (checkDigit == nil) ? nil : replaceLetters(in: checkDigit!)
         }
         
         return MRZField(value: format(rawValue, as: fieldType), rawValue: rawValue, checkDigit: checkDigit)
@@ -125,5 +125,6 @@ class MRZFieldFormatter {
             .replace("I", with: "1")
             .replace("Z", with: "2")
             .replace("B", with: "8")
+            .replace("S", with: "5")
     }
 }
